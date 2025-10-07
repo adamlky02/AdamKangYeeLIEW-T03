@@ -119,3 +119,15 @@ footer {
     text-align: center;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
+.Charts {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    max-height: 250px; /* limit height so it doesn't overflow */
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: contain; /* ensures the entire image is visible */
+    object-position: center;
+    margin: 0 auto 1rem auto;
+}
